@@ -1,5 +1,10 @@
+pip install langchain
+pip install openai
+
 import streamlit as st
-import openai
+from langchain import PromptTemplate
+from langchain.llms import OpenAI
+
 
 
 # Set up OpenAI API credentials
