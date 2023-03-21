@@ -3,7 +3,7 @@ import streamlit as st
 
 # Set up OpenAI API credentials
 st.set_option('deprecation.showfileUploaderEncoding', False)
-openai.api_key = st.text_input('Enter your OpenAI API Key')
+openai_api_key = st.text_input('Enter your OpenAI API Key')
 
 # Define Streamlit app
 def app():
