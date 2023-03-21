@@ -1,5 +1,6 @@
-import openai
 import streamlit as st
+import openai
+
 
 # Set up OpenAI API credentials
 st.set_option('deprecation.showfileUploaderEncoding', False)
